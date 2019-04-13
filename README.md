@@ -1,4 +1,4 @@
-**Custom React Boilerplate Starter**
+# Custom React Boilerplate Starter
 
 Basic React boilerplate using Webpack-Dev-Server + Hot Module Reloading + React Hot Loading for development, and Webpack + Express.js for production building and serving. Created with added support for:
 - [x] SCSS
