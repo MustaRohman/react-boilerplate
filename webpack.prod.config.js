@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const TITLE = 'title';
 
 module.exports = {
     entry: "./src/index.js",
@@ -26,7 +27,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: "Survey Form",
+            title: TITLE,
             inject: false,
             template: require('html-webpack-template'),
             appMountId: 'root'
